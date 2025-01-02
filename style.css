@@ -1,0 +1,1245 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    .top-nav {
+                        width: 100%;
+                        height: 50px;
+                        background-color: rgb(12, 132, 252);
+                        color: white;
+                        display: flex;
+                        line-height: 50px;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        font-size: 20px;
+                    }
+                    
+                    #space {
+                        width: 60%;
+                    }
+                    
+                    #space1 {
+                        width: 10%;
+                    }
+                    
+                    .top-nav #ph i img {
+                        height: 20px;
+                        width: 20px;
+                        /* margin-top: 10px; */
+                    }
+                    
+                    .top-nav #email i img {
+                        height: 25px;
+                        width: 25px;
+                        position: relative;
+                        top: 5px;
+                        left: -5px;
+                    }
+                    
+                    #appoint:hover {
+                        background-color: rgb(255, 196, 0);
+                        transition: 0.2s;
+                        border-radius: 2px;
+                    }
+                    
+                    #email:hover {
+                        background-color: rgb(255, 196, 0);
+                        transition: 0.2s;
+                        border-radius: 2px;
+                    }
+                    
+                    #ph:hover {
+                        background-color: rgb(255, 196, 0);
+                        transition: 0.2s;
+                        border-radius: 2px;
+                    }
+                    /* TOP BAR SECTION ...............................................  */
+                    
+                    .nav-bar {
+                        width: 100%;
+                        height: 75px;
+                        background-color: gray;
+                        justify-content: space-between;
+                    }
+                    /* LOGO */
+                    
+                    #logo {
+                        width: 10%;
+                        position: relative;
+                        top: 10px;
+                    }
+                    
+                    #logo i img {
+                        width: 100px;
+                        height: 50px;
+                        line-height: 50px;
+                    }
+                    /* LOGO */
+                    /* NAV-BAR-MENU */
+                    
+                    .menu {
+                        width: 100%;
+                        height: 65px;
+                    }
+                    
+                    .nav-bar .menu ul {
+                        list-style-type: none;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .nav-bar .menu ul li {
+                        line-height: 75px;
+                    }
+                    
+                    .nav-bar .menu ul li a {
+                        text-decoration: none;
+                        font-size: 25px;
+                        text-align: center;
+                        display: block;
+                        width: 150px;
+                        color: rgb(255, 166, 1);
+                        border-radius: 2px;
+                    }
+                    
+                    .nav-bar .menu ul li a:hover {
+                        background-color: yellow;
+                        width: 150px;
+                        transition: 0.2s;
+                        color: aqua;
+                        border-radius: 2px;
+                    }
+                    /* SOCIAL */
+                    
+                    .social {
+                        width: 20%;
+                        position: relative;
+                        top: 10px;
+                    }
+                    
+                    .social i a img:hover {
+                        background-color: yellow;
+                        transition: 0.2s;
+                        border-radius: 20px;
+                    }
+                    
+                    .space3 {
+                        width: 10%;
+                    }
+                    
+                    .space4 {
+                        width: 20%;
+                    }
+                    /* HERO SECTION ..................................................... */
+                    
+                    .hero {
+                        width: 100%;
+                        height: 1200px;
+                        background-image: url(image/slide.png);
+                        background-size: cover;
+                        position: absolute;
+                        top: 40px;
+                        z-index: -2;
+                    }
+                    
+                    .hero h2 {
+                        margin-left: 500px;
+                        margin-top: 200px;
+                        font-size: 65px;
+                        font-family: "Pacifico", cursive;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+                    
+                    .hero #pera1 {
+                        margin-left: 500px;
+                        margin-top: 10px;
+                        font-size: 50px;
+                        font-weight: 400;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        color: orange;
+                    }
+                    
+                    .hero #pera2 {
+                        margin-left: 500px;
+                        margin-top: 10px;
+                        font-size: 20px;
+                        color: rgb(73, 25, 25);
+                    }
+                    
+                    #btn1 {
+                        margin-left: 580px;
+                        margin-top: 35px;
+                        width: 110px;
+                        height: 50px;
+                        background-color: orange;
+                        color: white;
+                        border: none;
+                        border-radius: 6px;
+                        font-size: 19px;
+                        cursor: pointer;
+                    }
+                    
+                    #btn1:active {
+                        transform: scale(.99);
+                    }
+                    /* HERO SECTION 2 ..................................................... */
+                    
+                    .hero2 {
+                        width: 100%;
+                        height: 300px;
+                        background-color: white;
+                        position: absolute;
+                        top: 1200px;
+                    }
+                    
+                    .hero2 #about_left {
+                        margin-top: 20px;
+                        margin-left: 340px;
+                    }
+                    
+                    .hero2 #about_bottom {
+                        margin-top: 50px;
+                        margin-left: 80px;
+                    }
+                    
+                    .heading1 h1 {
+                        margin-top: 100px;
+                        margin-left: 1000px;
+                        font-size: 55px;
+                    }
+                    
+                    .heading1 h3 {
+                        margin-top: 20px;
+                        margin-left: 1000px;
+                        color: orange;
+                        font-size: 35px;
+                    }
+                    
+                    .heading1 p {
+                        margin-top: 20px;
+                        margin-left: 1000px;
+                        color: orange;
+                        font-size: 18px;
+                    }
+                    /* HERO 3 SECTION */
+                    
+                    .hero3 {
+                        width: 100%;
+                        height: 600px;
+                        position: absolute;
+                        top: 2100px;
+                        background-color: rgb(9, 106, 233);
+                    }
+                    
+                    .hero3 h1 {
+                        text-align: center;
+                        margin-top: 70px;
+                        font-size: 50px;
+                        color: aliceblue;
+                    }
+                    
+                    .hero3 p {
+                        text-align: center;
+                        margin-top: 20px;
+                        font-size: 20px;
+                        color: rgb(132, 184, 230);
+                    }
+                    
+                    .image {
+                        display: flex;
+                        margin: 50px;
+                        justify-content: space-evenly;
+                    }
+                    
+                    .image .img1 img {
+                        border-radius: 40px;
+                    }
+                    
+                    .image .img2 img {
+                        border-radius: 40px;
+                    }
+                    
+                    .image .img3 img {
+                        border-radius: 40px;
+                    }
+                    
+                    .image .img4 img {
+                        border-radius: 40px;
+                    }
+                    /* HERO SECTION 4 */
+                    
+                    .hero4 {
+                        width: 100%;
+                        height: 1000px;
+                        position: absolute;
+                        top: 2702px;
+                        /* top: 2702px; */
+                        background-color: white;
+                    }
+                    
+                    .div01 {
+                        text-align: center;
+                        margin-top: 40px;
+                        color: rgb(29, 105, 247);
+                        font-size: 25px;
+                    }
+                    
+                    .div02 {
+                        text-align: center;
+                        margin-top: 20px;
+                        color: gray;
+                        font-size: 15px;
+                    }
+                    
+                    .div-img {
+                        margin-top: 60px;
+                        margin-left: 550px;
+                        display: flex;
+                    }
+                    
+                    .hero4 .div-img p {
+                        color: rgb(29, 105, 247);
+                    }
+                    
+                    .hero4 .div-img .p3 {
+                        color: gray;
+                    }
+                    
+                    .divsecond .div-image8 image {
+                        margin-left: 200px;
+                    }
+                    /* HERO SECTION 4  FOOTER*/
+                    
+                    .hero-foot {
+                        width: 100%;
+                        height: 400px;
+                        position: absolute;
+                        top: 1000px;
+                        display: flex;
+                        background-color: orange;
+                    }
+                    
+                    .hero-foot .div03 h2 {
+                        margin-left: 250px;
+                        margin-top: 40px;
+                        font-size: 35px;
+                        color: aliceblue;
+                    }
+                    
+                    .hero-foot .div04 p {
+                        margin-left: 250px;
+                        color: aliceblue;
+                    }
+                    
+                    .hero-foot .div05 p {
+                        margin-left: 250px;
+                        color: aliceblue;
+                        margin-left: 250px;
+                    }
+                    
+                    #btn2 {
+                        width: 110px;
+                        height: 50px;
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-left: 250px;
+                        margin-top: 20px;
+                    }
+                    
+                    #btn2:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .div-right .image9 img {
+                        margin-left: 350px;
+                        margin-top: -50px;
+                    }
+                    /* HERO SECTION 5 ///////////////////////////////////////////////////*/
+                    
+                    .hero5 {
+                        width: 100%;
+                        height: 100px;
+                        position: absolute;
+                        top: 4102px;
+                        /* top: 2702px; */
+                        background-color: white;
+                    }
+                    
+                    .hero5 .para1 {
+                        font-size: 40px;
+                        color: rgb(15, 115, 255);
+                        font-style: italic;
+                        text-align: center;
+                    }
+                    
+                    .hero5 .para2 {
+                        font-size: 20px;
+                        text-align: center;
+                        color: gray;
+                    }
+                    /* hero6 */
+                    
+                    .hero6 {
+                        width: 100%;
+                        height: 300px;
+                        position: absolute;
+                        top: 4302px;
+                    }
+                    
+                    .col1 {
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 15px;
+                        row-gap: 20px;
+                    }
+                    
+                    .box1 {
+                        height: 350px;
+                        width: 300px;
+                        background-image: url(image/gallery1.png);
+                        background-size: cover;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: margin-right 2s ease-in-out;
+                    }
+                    
+                    .box1:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box1:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .box2 {
+                        height: 270px;
+                        width: 300px;
+                        background-image: url(image/gallery3.png);
+                        background-size: cover;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: all (100s) ease-out;
+                    }
+                    
+                    .box2:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box2:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .box3 {
+                        height: 350px;
+                        width: 300px;
+                        background-image: url(image/gallery5.png);
+                        background-size: cover;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: all (1s) ease-out;
+                    }
+                    
+                    .box3:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box3:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .col2 {
+                        display: flex;
+                        justify-content: center;
+                        gap: 15px;
+                        margin-top: 20px;
+                    }
+                    
+                    .box4 {
+                        height: 270px;
+                        width: 300px;
+                        background-image: url(image/gallery2.png);
+                        background-size: cover;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: all (100s) ease-out;
+                    }
+                    
+                    .box4:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box4:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .box5 {
+                        height: 350px;
+                        width: 300px;
+                        background-image: url(image/gallery4.png);
+                        background-size: cover;
+                        margin-top: -78px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: all (100s) ease-out;
+                    }
+                    
+                    .box5:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box5:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .box6 {
+                        height: 270px;
+                        width: 300px;
+                        background-image: url(image/gallery6.png);
+                        background-size: cover;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: all (100s) ease-out;
+                    }
+                    
+                    .box6:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .box6:active {
+                        transform: scale(0.99);
+                    }
+                    /* HERO SECTION 7 ////////////////////////////////////////// */
+                    
+                    .HERO7 {
+                        width: 100%;
+                        height: 400px;
+                        position: absolute;
+                        top: 5002px;
+                        background-color: rgb(245, 169, 27);
+                    }
+                    
+                    .para3 {
+                        font-size: 45px;
+                        text-align: center;
+                        margin-top: 20px;
+                        color: aliceblue;
+                    }
+                    
+                    .para4 {
+                        font-size: 20px;
+                        text-align: center;
+                        color: aliceblue;
+                    }
+                    
+                    .gal {
+                        margin-top: 50px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .space5 {
+                        width: 15%;
+                    }
+                    
+                    .ph1 {
+                        height: 120px;
+                        width: 120px;
+                        background-image: url(image/cat1.png);
+                        background-size: contain;
+                        cursor: pointer;
+                    }
+                    
+                    .ph1 p {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 120px;
+                        font-weight: bold;
+                        color: aliceblue;
+                    }
+                    
+                    .ph2 {
+                        height: 120px;
+                        width: 120px;
+                        background-image: url(image/cat2.png);
+                        background-size: contain;
+                        cursor: pointer;
+                    }
+                    
+                    .ph2 p {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 120px;
+                        font-weight: bold;
+                        color: aliceblue;
+                    }
+                    
+                    .ph3 {
+                        height: 120px;
+                        width: 120px;
+                        background-image: url(image/cat3.png);
+                        background-size: contain;
+                        cursor: pointer;
+                    }
+                    
+                    .ph3 p {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 120px;
+                        font-weight: bold;
+                        color: aliceblue;
+                    }
+                    
+                    .ph4 {
+                        height: 120px;
+                        width: 120px;
+                        background-image: url(image/cat4.png);
+                        background-size: contain;
+                        background-position: center;
+                        cursor: pointer;
+                    }
+                    
+                    .ph4 p {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 120px;
+                        font-weight: bold;
+                        color: aliceblue;
+                    }
+                    
+                    .ph5 {
+                        height: 120px;
+                        width: 120px;
+                        background-image: url(image/cat5.png);
+                        background-size: contain;
+                        cursor: pointer;
+                    }
+                    
+                    .ph5 p {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 120px;
+                        font-weight: bold;
+                        color: aliceblue;
+                        cursor: pointer;
+                    }
+                    /* 
+                            HERO SECTION 7 ////////////////////////////////////////// */
+                    
+                    .hero8 {
+                        width: 100%;
+                        height: 690px;
+                        position: absolute;
+                        top: 5401px;
+                        background-color: rgb(237, 232, 238);
+                    }
+                    
+                    .para5 {
+                        font-size: 40px;
+                        color: rgb(12, 159, 226);
+                        text-align: center;
+                        margin-top: 35px;
+                    }
+                    
+                    .para6 {
+                        font-size: 20px;
+                        color: gray;
+                        text-align: center;
+                    }
+                    
+                    .para7 {
+                        height: 500px;
+                        width: 600px;
+                        background-image: url(image/activity_left.png);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        mix-blend-mode: multiply;
+                        width: 50%;
+                        margin-top: 30px;
+                        border-radius: 20px;
+                    }
+                    
+                    .para8 {
+                        font-size: 20px;
+                        color: rgb(12, 159, 226);
+                        text-align: start;
+                        margin-left: 1000px;
+                        margin-top: -400px;
+                        color: gray;
+                    }
+                    
+                    .block {
+                        margin-left: 1000px;
+                        cursor: pointer;
+                    }
+                    
+                    .blk1 {
+                        display: flex;
+                    }
+                    
+                    .blok1 {
+                        width: 150px;
+                        height: 50px;
+                        background-color: orange;
+                        color: aliceblue;
+                        margin-top: 20px;
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 20px;
+                        border-radius: 5px;
+                        font-weight: bold;
+                    }
+                    
+                    .blok2 {
+                        width: 150px;
+                        height: 50px;
+                        background-color: orange;
+                        color: aliceblue;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 20px;
+                        border-radius: 5px;
+                        font-weight: bold;
+                    }
+                    
+                    .blk2 {
+                        display: flex;
+                    }
+                    
+                    .blok3 {
+                        width: 150px;
+                        height: 50px;
+                        background-color: orange;
+                        color: aliceblue;
+                        margin-top: 20px;
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 20px;
+                        border-radius: 5px;
+                        font-weight: bold;
+                    }
+                    
+                    .blok4 {
+                        width: 150px;
+                        height: 50px;
+                        background-color: orange;
+                        color: aliceblue;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 20px;
+                        border-radius: 5px;
+                        font-weight: bold;
+                    }
+                    /* .hero section 9 ///////////////////////////////// */
+                    
+                    .hero9 {
+                        width: 100%;
+                        height: 480px;
+                        position: absolute;
+                        top: 6091px;
+                        background-color: rgb(127, 7, 151);
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .dog {
+                        width: 610px;
+                        height: 320px;
+                        background-image: url(image/how1.png);
+                        border-radius: 10px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: margin-right 2s ease-in-out;
+                    }
+                    
+                    .dog .p5 {
+                        font-size: 30px;
+                        text-align: start;
+                        margin-top: 60px;
+                        margin-left: 40px;
+                        color: aliceblue;
+                        transition: all (7s) ease-in-out;
+                        animation: 3s linear 1s infinite alternate slidein;
+                    }
+                    
+                    .dog .p6 {
+                        height: 40px;
+                        width: 150px;
+                        background-color: rgb(209, 255, 6);
+                        font-size: 20px;
+                        text-align: start;
+                        margin-left: 40px;
+                        color: orange;
+                        margin-top: 3px;
+                        text-align: center;
+                        line-height: 40px;
+                        border-radius: 5px;
+                    }
+                    
+                    .dog .para6 {
+                        text-align: start;
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        font-size: 18px;
+                    }
+                    
+                    .btn3 {
+                        height: 40px;
+                        width: 120px;
+                        margin-left: 40px;
+                        margin-top: 20px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        cursor: pointer;
+                        border: none;
+                    }
+                    
+                    .dog:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .dog:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .toy {
+                        width: 610px;
+                        height: 320px;
+                        background-image: url(image/how2.png);
+                        border-radius: 10px;
+                        cursor: pointer;
+                        background-blend-mode: multiply;
+                        transition: margin-right 2s ease-in-out;
+                    }
+                    
+                    .toy:hover {
+                        background-blend-mode: normal;
+                    }
+                    
+                    .toy:active {
+                        transform: scale(0.99);
+                    }
+                    
+                    .toy .p5 {
+                        font-size: 30px;
+                        text-align: start;
+                        margin-top: 60px;
+                        margin-left: 40px;
+                        color: aliceblue;
+                        transition: all (7s) ease-in-out;
+                        animation: 3s linear 1s infinite alternate slidein;
+                    }
+                    
+                    .toy .p6 {
+                        height: 40px;
+                        width: 150px;
+                        background-color: rgb(209, 255, 6);
+                        font-size: 20px;
+                        text-align: start;
+                        margin-left: 40px;
+                        color: orange;
+                        margin-top: 3px;
+                        text-align: center;
+                        line-height: 40px;
+                        border-radius: 5px;
+                    }
+                    
+                    .par2 {
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        font-size: 18px;
+                        color: gray;
+                    }
+                    
+                    .btn3 {
+                        height: 40px;
+                        width: 120px;
+                        margin-left: 40px;
+                        margin-top: 20px;
+                        border-radius: 25px;
+                        font-size: 18px;
+                        cursor: pointer;
+                        border: none;
+                    }
+                    
+                    .space4 {
+                        width: 16%;
+                    }
+                    /* HERO SECTION 10/////////////////////////////////////////////// */
+                    
+                    .hero10 {
+                        width: 100%;
+                        height: 570px;
+                        position: absolute;
+                        top: 6570px;
+                        background-color: rgb(176, 228, 6);
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .circle {
+                        width: 550px;
+                        height: 550px;
+                        background-color: white;
+                        border-radius: 50%;
+                    }
+                    
+                    .heading1 {
+                        text-align: center;
+                        font-size: 40px;
+                        margin-top: 50px;
+                        color: rgb(0, 81, 255);
+                    }
+                    
+                    .heading2 {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 5px;
+                    }
+                    
+                    .heading3 {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 30px;
+                        color: gray;
+                    }
+                    
+                    .heading4 {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 20px;
+                        font-weight: bold;
+                    }
+                    
+                    .heading5 {
+                        text-align: center;
+                        font-size: 15px;
+                        margin-top: 10px;
+                    }
+                    /* HERO SECTION 11/////////////////////////////////////////////// */
+                    
+                    .hero11 {
+                        width: 100%;
+                        height: 510px;
+                        position: absolute;
+                        top: 7140px;
+                        background-color: rgb(244, 244, 244);
+                    }
+                    
+                    .heading6 {
+                        font-size: 40px;
+                        font-weight: bold;
+                        margin-top: 30px;
+                        text-align: center;
+                        color: rgb(0, 119, 255);
+                    }
+                    
+                    .heading7 {
+                        font-size: 18px;
+                        font-weight: bold;
+                        text-align: center;
+                        margin-top: 8;
+                        color: gray;
+                    }
+                    
+                    .photo {
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                    
+                    .ph6 {
+                        width: 330px;
+                        height: 330px;
+                        background-image: url(image/latest-news1.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 40px;
+                        border-radius: 10px;
+                    }
+                    
+                    .ph7 {
+                        width: 330px;
+                        height: 330px;
+                        background-image: url(image/latest-news2.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 40px;
+                        border-radius: 10px;
+                    }
+                    
+                    .ph8 {
+                        width: 330px;
+                        height: 330px;
+                        background-image: url(image/latest-news3.png);
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 40px;
+                        border-radius: 10px;
+                    }
+                    
+                    .space5 {
+                        width: 20%;
+                    }
+                    /* FOOTER SECTION :first 1/////////////////////////////////////////// */
+                    
+                    .footer1 {
+                        width: 100%;
+                        height: 500px;
+                        position: absolute;
+                        top: 7655px;
+                        background-color: rgb(5, 142, 169);
+                        display: flex;
+                    }
+                    
+                    .ph9 {
+                        height: 500px;
+                        width: 50%;
+                        background-image: url(image/dog-7306209_640.png);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-color: orange;
+                    }
+                    
+                    .reg {
+                        font-size: 35px;
+                        margin-top: 30px;
+                        color: white;
+                        margin-left: 295px;
+                    }
+                    
+                    .from {
+                        text-align: center;
+                        margin-left: 280px;
+                    }
+                    
+                    .from #name {
+                        height: 40px;
+                        width: 400px;
+                        border: none;
+                        outline: none;
+                        border-radius: 10px;
+                        margin-top: 15px;
+                        font-size: 20px;
+                        margin-left: 10px;
+                    }
+                    
+                    .from #message {
+                        height: 80px;
+                        width: 400px;
+                        border: none;
+                        outline: none;
+                        border-radius: 10px;
+                        margin-top: 15px;
+                        font-size: 20px;
+                        margin-left: 10px;
+                    }
+                    
+                    #submit {
+                        height: 45px;
+                        width: 120px;
+                        background-color: orange;
+                        margin-top: 24px;
+                        border: none;
+                        font-size: 25px;
+                        border-radius: 10px;
+                        font-weight: bold;
+                        box-shadow: 0 0 10px black;
+                        cursor: pointer;
+                    }
+                    
+                    #submit:active {
+                        transform: scale(.99);
+                    }
+                    /* FOOTER SECTION :first 1///////////////////////////////////////// */
+                    
+                    .footer2 {
+                        width: 100%;
+                        height: 376px;
+                        position: absolute;
+                        top: 8156px;
+                        background-color: rgb(195, 233, 241);
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .heading8 {
+                        color: rgb(14, 165, 246);
+                        font-size: 30px;
+                        margin-top: 75px;
+                        font-weight: bold;
+                    }
+                    
+                    .subhead {
+                        font-size: 18px;
+                        margin-top: 25px;
+                        text-align: start;
+                    }
+                    
+                    .icons {
+                        margin-top: 30px;
+                        margin-left: -30px;
+                    }
+                    
+                    .icons i img {
+                        margin-left: 30px;
+                    }
+                    /* //////////////////////////////// */
+                    
+                    .heading9 {
+                        color: rgb(14, 165, 246);
+                        font-size: 30px;
+                        margin-top: 75px;
+                        font-weight: bold;
+                    }
+                    
+                    .email {
+                        height: 40px;
+                        width: 200px;
+                        border: solid orange;
+                        outline: none;
+                        border-radius: 25px;
+                        margin-top: 15px;
+                        font-size: 20px;
+                        text-align: center;
+                        background-color: transparent;
+                        color: gray;
+                    }
+                    
+                    .submit {
+                        height: 40px;
+                        width: 120px;
+                        background-color: transparent;
+                        margin-top: 24px;
+                        border: none;
+                        font-size: 25px;
+                        border-radius: 10px;
+                        font-weight: bold;
+                        box-shadow: 0 0 10px black;
+                        cursor: pointer;
+                        color: orange;
+                    }
+                    
+                    .submit:active {
+                        transform: scale(.99);
+                    }
+                    /* /////////////////////////////////// */
+                    
+                    .heading10 {
+                        color: rgb(14, 165, 246);
+                        font-size: 30px;
+                        margin-top: 75px;
+                        font-weight: bold;
+                    }
+                    
+                    #sub {
+                        height: 40px;
+                        width: 120px;
+                        background-color: transparent;
+                        margin-top: 24px;
+                        border: none;
+                        font-size: 25px;
+                        border-radius: 10px;
+                        font-weight: bold;
+                        box-shadow: 0 0 10px black;
+                        cursor: pointer;
+                        color: orange;
+                        margin-top: 77px;
+                    }
+                    
+                    #sub:active {
+                        transform: scale(.99);
+                    }
+                    /* //////////////////////////////////////// */
+                    
+                    .heading11 {
+                        color: rgb(14, 165, 246);
+                        font-size: 30px;
+                        margin-top: 75px;
+                        font-weight: bold;
+                    }
+                    
+                    #post1 {
+                        font-size: 18px;
+                        margin-top: 25px;
+                    }
+                    
+                    #post2 {
+                        font-size: 18px;
+                        margin-top: 20px;
+                    }
+                    
+                    #post3 {
+                        font-size: 18px;
+                        margin-top: 20px;
+                    }
+                    /* //////////////////////////////////////////////// */
+                    
+                    .dogie {
+                        width: 400px;
+                        height: 400px;
+                        background-image: url(image/dog.png);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin-top: 30px;
+                    }
+                    /* ///////////////////////////// */
+                    
+                    .space6 {
+                        width: 15%;
+                    }
+                    
+                    .space7 {
+                        width: 5%;
+                    }
+                    
+                    .space8 {
+                        width: 2%;
+                    }
+                    
+                    .space9 {
+                        width: 2%;
+                    }
+                    /* ///////////////////////////////////// */
+                    
+                    .footer3 {
+                        width: 100%;
+                        height: 80px;
+                        background-color: rgb(248, 7, 88);
+                        position: absolute;
+                        top: 8526px;
+                        z-index: -2;
+                    }
+                    
+                    .heading12 {
+                        text-align: center;
+                        font-size: 20px;
+                        margin-top: 30px;
+                        color: yellow;
+                    }
+                    
+                    span {
+                        color: rgb(16, 137, 249);
+                        cursor: pointer;
+                    }
